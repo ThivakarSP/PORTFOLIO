@@ -1,0 +1,40 @@
+.contact {
+    background: gray;
+    position: relative;
+    height: 92vh;
+  }
+  .contact-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  .contact-content h2 {
+    font-size: 2.5rem;
+    font-weight: 400;
+    color: black;
+    padding-bottom: 0.5rem;
+  }
+  .contact-content .mail {
+    color:  #ffbf35
+  ;
+    padding-bottom: 0.2rem;
+    font-size: 1rem;
+  }
+  .contact-content .links {
+    color: black;
+    padding: 0.5rem;
+    padding-bottom: 1.8rem;
+    font-size: 1rem;
+  }
+  .contact-content a {
+    text-decoration: none;
+    color: black;
+    padding: 0.5rem;
+    transition: 0.3s ease-in-out;
+  }
+  .contact-content a:hover {
+    color:  #ffbf35
+  ;
+  }
